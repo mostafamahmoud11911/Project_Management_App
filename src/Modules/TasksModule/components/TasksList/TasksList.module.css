@@ -1,0 +1,86 @@
+.btnOrangeColor {
+  background-color: hsla(35, 86%, 55%, 1) !important;
+}
+
+.backgroundGrey {
+  background-color: #d8d8d8;
+}
+
+.backgroundgreen {
+  background-color: #315951e5 !important;
+}
+.inputGroup {
+  display: flex;
+  align-items: center;
+  border: 2px solid #ddd;
+  padding: 5px 10px;
+  border-radius: 22px;
+}
+
+.searchInput {
+  border: none;
+  outline: none;
+  width: 100%;
+  margin-left: 5px;
+}
+
+@media (max-width: 768px) {
+  .head {
+    font-size: 10px;
+  }
+}
+
+.filterContianer select {
+  border: 2px solid #ddd;
+  outline: none;
+  padding: 5px 10px;
+  border-radius: 22px;
+  appearance:none;
+}
+
+
+.pagination {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px;
+}
+.contentSize {
+  position: relative;
+}
+.pageSize {
+  border: 1px solid #d8d8d8;
+  padding: 2px 5px;
+  margin: 0 5px;
+  display: flex;
+  gap: 5px;
+  border-radius: 13px;
+  cursor: pointer;
+}
+
+.listsPage {
+  position: absolute;
+  top: 33px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ddd;
+  padding: 2px 20px;
+  border-radius: 5px;
+  display: flex;
+  gap: 20px;
+}
+.listsPage span {
+  cursor: pointer;
+}
+
+.pageNum {
+  display: flex;
+  gap: 2rem;
+  margin-left: 2rem;
+}
+
+.arrows {
+  display: flex;
+  gap: 2.5rem;
+}
