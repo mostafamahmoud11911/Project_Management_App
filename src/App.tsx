@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-import { RouterProvider, createBrowserRouter} from "react-router-dom";
+import { RouterProvider, createBrowserRouter, createHashRouter} from "react-router-dom";
 import NotFound from "./Modules/SharedModule/components/NotFound/NotFound";
 import Login from "./Modules/AuthenticationModule/components/Login/Login";
 import AuthLayout from "./Modules/SharedModule/components/AuthLayout/AuthLayout";
@@ -21,7 +21,7 @@ import TasksData from "./Modules/TasksModule/components/TasksData/TasksData";
 import TaskBoard from "./Modules/TasksModule/components/TaskBoard/TaskBoard";
 
 function App() {
-  const routes = createBrowserRouter([
+  const routes = createHashRouter([
     {
       path: "/",
       element: <AuthLayout />,
